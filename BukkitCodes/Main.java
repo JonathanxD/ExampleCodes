@@ -22,7 +22,6 @@ public class Main extends JavaPlugin{
 			Player p = null;
 			if(sender instanceof Player)
 			{
-				String Name;
 				p = (Player)sender;
 				sender.sendMessage("§aVocê foi curado!");				
 			}else
