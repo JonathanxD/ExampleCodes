@@ -37,7 +37,7 @@ public class Main extends JavaPlugin{
 					sender.sendMessage("§cO jogador "+args[0]+" nao esta online.");
 					return true;
 				}
-				sender.sendMessage("§a'" + player.getName() + "' foi curado!");				
+				sender.sendMessage("§a'" + p.getName() + "' foi curado!");				
 				
 			}
 			if(p != null){
